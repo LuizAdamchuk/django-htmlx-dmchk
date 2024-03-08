@@ -13,7 +13,7 @@ O propósito deste projeto é explorar o uso do HTMLX, visando otimizar a render
 
 1. Clone o repositório:
 
-   `git clone https://github.com/seu_usuario/seu_projeto_django.git`
+   `git clone https://github.com/LuizAdamchuk/django-htmlx-dmchk.git`
 
 2. Crie um ambiente virtual:
 
