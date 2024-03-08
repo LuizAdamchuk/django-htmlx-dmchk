@@ -1,4 +1,4 @@
-# Nome do Projeto Django
+# Teste HTMLX
 
 ## Sobre o Projeto
 
@@ -38,7 +38,15 @@ Para criar um superusuário e acessar o painel de administração do Django:
 2. Execute os seguintes comandos:
 
    `python manage.py createsuperuser`
-   Siga as instruções para definir um nome de usuário, email e senha para o superusuário.
+
+   _Siga as instruções para definir um nome de usuário, email e senha para o superusuário._
+
+## Executando Migrações
+
+1. Ative o ambiente virtual.
+2. Execute o comando de migração:
+
+   `python manage.py migrate`
 
 ## Configuração do Banco de Dados
 
