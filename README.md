@@ -30,6 +30,13 @@ O propósito deste projeto é explorar o uso do HTMLX, visando otimizar a render
 
    `pip install -r requirements.txt`
 
+## Executando Migrações
+
+1. Ative o ambiente virtual.
+2. Execute o comando de migração:
+
+   `python manage.py migrate`
+
 ## Criando um Superusuário
 
 Para criar um superusuário e acessar o painel de administração do Django:
@@ -40,13 +47,6 @@ Para criar um superusuário e acessar o painel de administração do Django:
    `python manage.py createsuperuser`
 
    _Siga as instruções para definir um nome de usuário, email e senha para o superusuário._
-
-## Executando Migrações
-
-1. Ative o ambiente virtual.
-2. Execute o comando de migração:
-
-   `python manage.py migrate`
 
 ## Configuração do Banco de Dados
 

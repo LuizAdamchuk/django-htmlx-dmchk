@@ -10,6 +10,8 @@ def check_product(request):
 
   return render(request, 'partials/htmlx_components/check_product.html', {'products':products, 'product': product})
 
+
+@csrf_exempt # FIXME: Estou com dificuldades pra entender o motivo do csrf_token nao estar 100% funcional
 def save_product(request):
   name = request.POST.get('product')
   price = _pipe_price_validation(request.POST.get('price', '10') )
