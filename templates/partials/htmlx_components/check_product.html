@@ -1,0 +1,5 @@
+{% if products and product %}
+ <p class="badge bg-danger">Produto indisponível</p>
+{% elif product %}
+ <p class="badge bg-success">Produto disponível para cadastro</p>
+{% endif %}
